@@ -16,6 +16,7 @@ curl
 *Script must be run a sudo*
 
 The script can handle two types of input, either `https://www.test.com/` with the argument `-u`or use the `-i` argument with `https://10.10.10.10/`
+
 *Examples*
 `-u` argument
 ```
