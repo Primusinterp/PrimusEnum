@@ -18,6 +18,7 @@ curl
 The script can handle two types of input, either `https://www.test.com/` with the argument `-u`or use the `-i` argument with `https://10.10.10.10/`
 
 *Examples*
+
 `-u` argument
 ```
 sudo python3 PrimusEnum.py -u https://www.test.com/  
