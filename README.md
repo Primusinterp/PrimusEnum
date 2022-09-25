@@ -22,7 +22,7 @@ The script can handle two types of input, either `https://www.test.com/` with th
 ```
 sudo python3 PrimusEnum.py -u https://www.test.com/  
 ```
-´-i`argument 
+`-i` argument 
 ```
 sudo python3 PrimusEnum.py -i http://10.10.10.10/  
 ```
