@@ -3,7 +3,7 @@ This is a script made for automating some of the scans in the enumeration phase 
 
 ***This is a work in progress script***
 
-## Dependcies 
+## Dependencies 
 The most important dependencies should be installed automatically - if it fails try a manual install, the following tools have been used in the script:
 ```
 NMAP
