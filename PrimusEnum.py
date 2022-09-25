@@ -111,7 +111,7 @@ if args.u:
 
     #Curl enumeration
     os.chdir(curl_dir)
-    print(f'[+] Curling the sites: {full_URL}. . . output to curl.txt')
+    print(f'[+] Curling the sites: {full_URL}. . . output to curl_sites')
     curl_cmd = ["curl", "-i",full_URL, "-o", f"{full_URL.txt}"]
     subprocess.run(curl_cmd)
     with open(f'{pwd}/dir.txt','r') as c_dir:
@@ -203,7 +203,7 @@ elif args.i:
 
     #Curl enumeration
     os.chdir(curl_dir)
-    print(f'[+] Curling the sites: {full_URL}. . . output to curl.txt')
+    print(f'[+] Curling the sites: {full_URL}. . . output to curl_sites')
     curl_cmd = ["curl", "-i", full_URL, "-o","homepage.txt"]
     subprocess.run(curl_cmd)
     with open(f'{pwd}/dir.txt','r') as c_dir:
