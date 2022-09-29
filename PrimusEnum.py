@@ -18,6 +18,14 @@ ferox_name = 'feroxbuster'
 
 #Dependecies
 try:
+    print(r"""
+  _____      _                     ______
+ |  __ \    (_)                   |  ____|
+ | |__) | __ _ _ __ ___  _   _ ___| |__   _ __  _   _ _ __ ___
+ |  ___/ '__| | '_ ` _ \| | | / __|  __| | '_ \| | | | '_ ` _ \
+ | |   | |  | | | | | | | |_| \__ \ |____| | | | |_| | | | | | |
+ |_|   |_|  |_|_| |_| |_|\__,_|___/______|_| |_|\__,_|_| |_| |_|""")
+    print('\n')
     print('[+] Installing Dependecies. . .')
     dep_dir = os.path.isdir(dirsearch_dir)
     #print(dep_dir
